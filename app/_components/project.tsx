@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import { useEffect } from "react";
 
-type projectColorScheme = {
-  src: string;
-};
 
 type RGB = {
   r: number;
