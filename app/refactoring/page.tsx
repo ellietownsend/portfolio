@@ -3,16 +3,11 @@ import styles from "./Refactor.module.css"
 
 export default function RefactoringPage() {
   return (
-    <main className={ styles.starWarsFont }>
-      <div className="flex min-h-screen flex-col items-center justify-center">
-        <h1 className="font-star-wars text-6xl">
-          We&apos;ll Be Right Back
+      <div className="flex box-content min-h-screen bg-[#0A1118ff] flex-col items-center justify-center ">
+        <h1 className={styles.starWarsFont}>
+          A long time ago in a galaxy far,<br /> far away....
         </h1>
 
-        <p className="mt-6 text-lg text-gray-400">
-          The site is currently undergoing some refactoring.
-        </p>
       </div>
-    </main>
   );
 }
