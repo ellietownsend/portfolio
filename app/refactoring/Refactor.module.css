@@ -1,6 +1,7 @@
 @reference "../globals.css"; 
 
 .starWarsFont {
-  @apply bg-blue-700 text-white p-4 rounded-lg;
-  font-family: 'Star Wars', sans-serif;
+  @apply text-[#309BADff] text-4xl p-1.5 leading-relaxed;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
 }
