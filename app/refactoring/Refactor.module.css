@@ -1,7 +1,12 @@
 @reference "../globals.css"; 
 
-.starWarsFont {
+.starWarsScrollIntro {
   @apply text-[#309BADff] text-4xl p-1.5 leading-relaxed;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 700;
+  animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  50% {opacity: 0;}
 }
