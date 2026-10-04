@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useEffect } from "react";
 
-
 type RGB = {
   r: number;
   g: number;
