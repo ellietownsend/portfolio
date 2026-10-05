@@ -1,11 +1,10 @@
 'use client'
 import { useRouter } from 'next/router'
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import styles from "./Refactor.module.css"
 
 export default function RefactoringIntro() {
   const [finished, setFinished] = useState(false);
-  
   if (finished) {
     return null;
   }
