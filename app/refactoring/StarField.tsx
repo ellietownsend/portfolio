@@ -1,5 +1,4 @@
 'use client';
-import styles from './StarField.module.css';
 import { useEffect, useRef } from 'react';
 
 const DENSITY = 0.0004; // stars per pixel of screen area
@@ -97,10 +96,10 @@ export default function Starfield({ className = '' }) {
   }, []);
 
   return (
-    <canvas
-        ref={canvasRef}
-        aria-hidden="true"
-        className={`${styles.starfield} ${className}`}
-    />
+  <canvas
+    ref={canvasRef}
+    aria-hidden="true"
+    className={`fixed inset-0 w-full h-full pointer-events-none -z-10 bg-[#05060f] ${className}`}
+  />
   );
 }
